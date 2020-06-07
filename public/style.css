@@ -1,0 +1,284 @@
+body{
+    background-color: blanchedalmond;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding:10px 45px;
+}
+
+
+#nav{
+      margin:2px 50px;
+      border:1px solid red;
+      height: 40px;
+      padding-top:10px;
+      
+      background-color: beige;
+      border-radius: 20px;
+      box-shadow: 2px 2px 2px 2px red;
+}
+
+#logo{
+    margin: 1px 30px;
+    font-weight: bold;
+    float: left;
+    padding-left:100px;
+}
+#logo a:link{
+    color: red;
+    text-decoration: none;
+}
+#logo a:visited{
+    color: red;
+    text-decoration: none;
+}
+
+#logo a:hover{
+       color:green;
+}
+#logo a:active{
+    color: red;
+    text-decoration: none;
+}
+
+
+
+#listLink{
+    display: inline;
+    
+}
+
+#listLink li{
+    float:left;
+    list-style-type: none;
+    margin:0px 5px;
+  
+
+}
+
+#listLink a:link{
+    color:tomato;
+    text-decoration: none;
+    
+}
+#listLink a:hover{
+    color:plum;
+    text-decoration: none;
+    
+}
+
+
+#images{
+    margin:10px 50px;
+    position: relative;
+    
+    
+}
+
+
+#images img{
+    margin-left:15%;
+    border:1px solid red;
+    box-shadow: 3px 3px 1px 1px red;
+    border-radius: 10px;
+}
+
+#bImg{
+    position: absolute;
+    top:30%;
+    left:20%;
+    color:white;
+    padding-right:20%;
+    
+}
+
+
+#content{
+
+    margin:2px 50px;
+
+}
+
+
+#content p{
+    text-align: justify;
+    color:red;
+}
+
+
+#content h2{
+    text-decoration: underline;
+    text-shadow: 1px 1px 1px ;
+
+}
+
+
+
+#history img{
+    box-shadow: 3px 3px 2px 2px red;
+    float:left;
+    margin-right:7px;
+}
+
+#historian{
+     float:right;
+}
+
+
+#names{
+
+    margin:2px 50px;
+
+}
+
+#names h1{
+    text-decoration: underline;
+    text-shadow: 1px 1px 1px ;
+    
+}
+
+#names h2{
+    text-decoration: underline;
+    text-shadow: 1px 1px 1px ;
+    
+}
+
+#names h3{
+    text-shadow: 1px 1px 1px rgb(59, 87, 59) ;
+    
+}
+
+
+
+
+
+#listName li{
+    list-style-type: square;
+}
+
+
+#lnks{
+
+    margin:2px 50px;
+
+}
+
+
+
+#lnks h1{
+    text-decoration: underline;
+    text-shadow: 1px 1px 1px ;
+    
+}
+
+
+
+
+#someO li a:link{
+    text-decoration: none;
+    padding:2px;
+    color:rebeccapurple;
+}
+#someO li a:visited{
+    text-decoration: none;
+    padding:2px;
+    color:green;
+}
+
+
+
+footer{
+
+    margin:2px 50px;
+    border:1px dashed;
+    background-color: aquamarine;
+
+}
+
+
+
+footer div{
+
+    padding:10px 40%;
+
+}
+
+
+#cont{
+    margin:10px 50px;
+    position: relative;
+}
+
+
+
+#cont iframe{
+        margin:20px 0;
+        border:1px solid red;
+        box-shadow: 3px 3px 3px 3px red;
+        width: 100%;
+        height: 600px;
+
+}
+
+
+#capt{
+    margin:10px 50px;
+    
+}
+
+
+
+#capt ul li{
+    list-style-type: none;
+    display: inline;
+    
+}
+
+/* #capt ul li img{
+  
+    width: 45%;
+    float:left;
+    margin:10px 15px;
+    border:1px solid red;
+    border-radius: 15px;
+    box-shadow: 3px 3px 1px 1px red;
+    position: relative;
+} */
+
+
+
+
+#capt ul li div img{
+    width: 60%;
+    float:left;
+    margin:10px 20%;
+    border:1px solid red;
+    border-radius: 15px;
+    box-shadow: 3px 3px 1px 1px red;
+    
+}
+#capt ul li div p{
+    width: 100%;;
+    float:left;
+    margin-top:0;
+    margin-bottom: 20px;
+    text-align: center;
+    
+}
+
+#me{
+      margin:10px 50px;
+}
+@media screen and (max-width:780px){
+    #logo{
+        margin: 1px;
+        font-weight: bold;
+        float: left;
+        padding-left:10px;
+    }
+    
+    #bImg p{
+        display: none;
+    }
+}
+
+
+
